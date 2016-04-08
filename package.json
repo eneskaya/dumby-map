@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "node server.js",
     "start": "webpack --progress --profile --colors"
   },
   "author": "",
@@ -17,11 +18,14 @@
     "eslint": "^2.7.0",
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-react": "^4.3.0",
+    "path": "^0.12.7",
+    "react-hot-loader": "^1.3.0",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.0.1",
+    "rethinkdb": "^2.3.0"
   }
 }
