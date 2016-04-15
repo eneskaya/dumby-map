@@ -24,8 +24,13 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "express": "^4.13.4",
+    "fb": "^1.0.2",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
-    "rethinkdb": "^2.3.0"
+    "react-google-maps": "^4.9.1",
+    "react-redux": "^4.4.2",
+    "rethinkdb": "^2.3.0",
+    "socket.io": "^1.4.5"
   }
 }

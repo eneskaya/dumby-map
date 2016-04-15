@@ -4,15 +4,18 @@ import TestComponent from './components/Test';
 
 class App extends Component {
 
+  constructor(props) {
+    super(props);
+
+    this.stats = [];
+  }
+
+
   render() {
     return (
       <div>
-        <h1>Hello, world</h1>
-        <TestComponent name="Enes" />
-        <TestComponent name="Dilan" />
-        <TestComponent name="Sehriban" />
-        <TestComponent name="Aynur" />
-        <TestComponent name="Ömer" />
+        <h1>Hello, World</h1>
+        <TestComponent name="Hallo" />
       </div>
     );
   }

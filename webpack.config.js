@@ -1,13 +1,9 @@
-var path = require('path');
-var webpack = require('webpack');
-
-console.log(path.join(__dirname, 'www'));
+const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   devtool: 'eval',
   entry: [
-    'webpack-dev-server/client?http://localhost:3000',
-    'webpack/hot/only-dev-server',
     './src/app',
   ],
   output: {
@@ -15,9 +11,7 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/www/',
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-  ],
+  plugins: [],
   module: {
     loaders: [{
       test: /\.js$/,
