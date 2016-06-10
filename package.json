@@ -28,6 +28,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "fb": "^1.0.2",
+    "material-ui": "^0.15.0",
     "node-fetch": "^1.5.1",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
