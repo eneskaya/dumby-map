@@ -19,16 +19,3 @@ r.connect({db: "rethinkdb"}).then(function(c) {
       });
     });
 });
-
-FB.setAccessToken('592585627576232|JjOCabG1zsog55a5Uz-idFgEgDs');
-
-FB.api(
-    "/260038814333107?fields=hometown,age_range,about",
-    function (response) {
-      if (response && !response.error) {
-        console.log(response);
-      } else {
-        console.error(response);
-      }
-    }
-);

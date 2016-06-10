@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "server": "node server.js",
-    "start": "webpack --progress --profile --colors"
+    "start": "webpack --progress --profile --colors",
+    "get_posts": "node fb-posts.js",
+    "get_comments": "node fb-comments.js"
   },
   "author": "",
   "license": "ISC",
@@ -26,10 +28,11 @@
   "dependencies": {
     "express": "^4.13.4",
     "fb": "^1.0.2",
+    "node-fetch": "^1.5.1",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
-    "react-google-maps": "^4.9.1",
     "react-redux": "^4.4.2",
+    "redux": "^3.4.0",
     "rethinkdb": "^2.3.0",
     "socket.io": "^1.4.5"
   }
